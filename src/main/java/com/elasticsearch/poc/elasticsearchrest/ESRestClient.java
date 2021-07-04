@@ -18,13 +18,15 @@ import io.searchbox.core.Search;
 import io.searchbox.core.SearchResult;
 import io.searchbox.core.Update;
 
+/**
+*/
 
 public class ESRestClient {
 	
 	public static void main(String[] args) {
 		System.out.println("Starting the ES Client...");
 		try {
-			//createIndex();
+
 			
 			getArticleById("AWduH09pL_j6Xws3Tc3w");
 			List<Article> articles = getAllArticle();
